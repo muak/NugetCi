@@ -19,24 +19,24 @@
     </metadata>
     <files>
         <!-- .net standard 2.0 -->
-        <file src="/NugetCi.dll" target="lib/netstandard2.0" />
-        <file src="/NugetCi.xml" target="lib/netstandard2.0" />
-        <file src="/NugetCi.pdb" target="lib/netstandard2.0" />
+        <file src="NugetCi.dll" target="lib/netstandard2.0" />
+        <file src="NugetCi.xml" target="lib/netstandard2.0" />
+        <file src="NugetCi.pdb" target="lib/netstandard2.0" />
 
         <!-- Mono.Android -->
-        <file src="/NugetCi.dll" target="lib/MonoAndroid" />
-        <file src="/NugetCi.xml" target="lib/MonoAndroid" />
-        <file src="/NugetCi.pdb" target="lib/MonoAndroid" />
-        <file src="/NugetCi.Android.dll" target="lib/MonoAndroid" />
-        <file src="/NugetCi.Android.xml" target="lib/MonoAndroid" />
-        <file src="/NugetCi.Android.pdb" target="lib/MonoAndroid" />
+        <file src="NugetCi.dll" target="lib/MonoAndroid" />
+        <file src="NugetCi.xml" target="lib/MonoAndroid" />
+        <file src="NugetCi.pdb" target="lib/MonoAndroid" />
+        <file src="NugetCi.Android.dll" target="lib/MonoAndroid" />
+        <file src="NugetCi.Android.xml" target="lib/MonoAndroid" />
+        <file src="NugetCi.Android.pdb" target="lib/MonoAndroid" />
 
         <!-- Xamarin.iOS10 -->
-        <file src="/NugetCi.dll" target="lib/MonoAndroid" />
-        <file src="/NugetCi.xml" target="lib/MonoAndroid" />
-        <file src="/NugetCi.pdb" target="lib/MonoAndroid" />
-        <file src="/NugetCi.iOS.dll" target="lib/Xamarin.iOS10" />
-        <file src="/NugetCi.iOS.xml" target="lib/Xamarin.iOS10" />
-        <file src="/NugetCi.iOS.pdb" target="lib/Xamarin.iOS10" />
+        <file src="NugetCi.dll" target="lib/MonoAndroid" />
+        <file src="NugetCi.xml" target="lib/MonoAndroid" />
+        <file src="NugetCi.pdb" target="lib/MonoAndroid" />
+        <file src="NugetCi.iOS.dll" target="lib/Xamarin.iOS10" />
+        <file src="NugetCi.iOS.xml" target="lib/Xamarin.iOS10" />
+        <file src="NugetCi.iOS.pdb" target="lib/Xamarin.iOS10" />
     </files>
 </package>
