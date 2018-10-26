@@ -9,5 +9,10 @@ namespace NugetCi.iOS
         {
             _nuget = new Nuget() { Name = "iOS", Version = 1 };
         }
+
+        public string GetName()
+        {
+            return _nuget.Name;
+        }
     }
 }

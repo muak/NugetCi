@@ -8,5 +8,10 @@ namespace NugetCi.Android
         {
             _nuget = new Nuget { Name = "Android", Version = 1 };
         }
+
+        public string GetName()
+        {
+            return _nuget.Name;
+        }
     }
 }
