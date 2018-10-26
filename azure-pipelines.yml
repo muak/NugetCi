@@ -52,4 +52,4 @@ jobs:
       solutionFile: '**/*.sln'
       configuration: 'Release'
       buildForSimulator: true
-packageApp: false
+      packageApp: false
