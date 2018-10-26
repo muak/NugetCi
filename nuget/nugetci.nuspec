@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+    <metadata>
+        <id>NugetCiTest</id>
+        <version>0.0.1-pre</version>
+        <title>NugetCiTest</title>
+        <authors>kamu</authors>
+        <owners>kamu</owners>
+        <projectUrl></projectUrl>
+        <licenseUrl></licenseUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>The nuget ci test. </description>
+        <summary></summary>
+        <releaseNotes>test
+        </releaseNotes>
+        <tags></tags>
+        <language>en-US</language>
+        
+    </metadata>
+    <files>
+        <!-- .net standard 2.0 -->
+        <file src="/NugetCi.dll" target="lib/netstandard2.0" />
+        <file src="/NugetCi.xml" target="lib/netstandard2.0" />
+        <file src="/NugetCi.pdb" target="lib/netstandard2.0" />
+
+        <!-- Mono.Android -->
+        <file src="/NugetCi.dll" target="lib/MonoAndroid" />
+        <file src="/NugetCi.xml" target="lib/MonoAndroid" />
+        <file src="/NugetCi.pdb" target="lib/MonoAndroid" />
+        <file src="/NugetCi.Android.dll" target="lib/MonoAndroid" />
+        <file src="/NugetCi.Android.xml" target="lib/MonoAndroid" />
+        <file src="/NugetCi.Android.pdb" target="lib/MonoAndroid" />
+
+        <!-- Xamarin.iOS10 -->
+        <file src="/NugetCi.dll" target="lib/MonoAndroid" />
+        <file src="/NugetCi.xml" target="lib/MonoAndroid" />
+        <file src="/NugetCi.pdb" target="lib/MonoAndroid" />
+        <file src="/NugetCi.iOS.dll" target="lib/Xamarin.iOS10" />
+        <file src="/NugetCi.iOS.xml" target="lib/Xamarin.iOS10" />
+        <file src="/NugetCi.iOS.pdb" target="lib/Xamarin.iOS10" />
+    </files>
+</package>
