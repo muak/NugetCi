@@ -6,8 +6,8 @@
         <title>NugetCiTest</title>
         <authors>kamu</authors>
         <owners>kamu</owners>
-        <projectUrl></projectUrl>
-        <licenseUrl></licenseUrl>
+        <projectUrl>https://github.com/muak/NugetCi</projectUrl>
+        <licenseUrl>https://github.com/muak/NugetCi</licenseUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>The nuget ci test. </description>
         <summary></summary>
