@@ -25,6 +25,7 @@ jobs:
       projectFile: '**/*droid*.csproj'
       outputDirectory: '$(outputDirectory)'
       configuration: '$(buildConfiguration)'
+      createAppPackage: false
 
   - task: PublishBuildArtifacts@1
     inputs:
@@ -33,6 +34,10 @@ jobs:
 - job: iOS
   pool:
     vmImage: 'macOS 10.13'
+
+  variables:
+    buildConfiguration: 'Release'
+    outputDirectory: '$(build.binariesDirectory)/$(buildConfiguration)'
 
   steps:
   # To manually select a Xamarin SDK version on the Hosted macOS agent, enable this script with the SDK version you want to target
@@ -50,6 +55,19 @@ jobs:
   - task: XamariniOS@2
     inputs:
       solutionFile: '**/*.sln'
-      configuration: 'Release'
+      outputDirectory: '$(outputDirectory)'
+      configuration: '$(buildConfiguration)'
       buildForSimulator: true
       packageApp: false
+
+- job: Nuget
+
+  steps:
+  - task: NuGetCommand@2
+    displayName: 'NuGet pack'
+    inputs:
+      command: pack
+      packagesToPack: nuget/nugetci.nuspec
+      versioningScheme: byBuildNumber
+      includeSymbols: true
+      basePath: '/'
