@@ -32,9 +32,9 @@
         <file src="NugetCi.Android.pdb" target="lib/MonoAndroid" />
 
         <!-- Xamarin.iOS10 -->
-        <file src="NugetCi.dll" target="lib/MonoAndroid" />
-        <file src="NugetCi.xml" target="lib/MonoAndroid" />
-        <file src="NugetCi.pdb" target="lib/MonoAndroid" />
+        <file src="NugetCi.dll" target="lib/Xamarin.iOS10" />
+        <file src="NugetCi.xml" target="lib/Xamarin.iOS10" />
+        <file src="NugetCi.pdb" target="lib/Xamarin.iOS10" />
         <file src="NugetCi.iOS.dll" target="lib/Xamarin.iOS10" />
         <file src="NugetCi.iOS.xml" target="lib/Xamarin.iOS10" />
         <file src="NugetCi.iOS.pdb" target="lib/Xamarin.iOS10" />
